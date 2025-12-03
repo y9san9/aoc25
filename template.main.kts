@@ -6,6 +6,7 @@ fun solve(file: File): Int {
 }
 
 fun parse(file: File): Nothing {
+    TODO("No, actually, parse this first")
 }
 
 val example = TODO("Paste example")
