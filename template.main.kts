@@ -1,21 +1,25 @@
 import java.io.File
 
-fun solve(input: File): Int {
+fun solve(file: File): Int {
+    val input = parse(file)
     TODO("Solve this first")
 }
 
-val example = TODO("Paste example")
-val exampleInput = File("day1.example")
-val input = File("day1.data")
+fun parse(file: File): Nothing {
+}
 
-val exampleAnswer = solve(exampleInput)
+val example = TODO("Paste example")
+val exampleFile = File("dayx.example")
+val file = File("dayx.data")
+
+val exampleAnswer = solve(exampleFile)
 check(exampleAnswer == example) {
     "Expected $example, but was $exampleAnswer"
 }
 println("Passed example")
 
-if (input.exists()) {
-    println("Answer: ${solve(input)}")
+if (file.exists()) {
+    println("Answer: ${solve(file)}")
 } else {
-    println("Create ${input.name} for solving...")
+    println("Create ${file.name} for solving...")
 }
