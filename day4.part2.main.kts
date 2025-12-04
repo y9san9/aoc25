@@ -51,11 +51,6 @@ data class Coordinate(val x: Int, val y: Int) {
     }
 }
 
-sealed interface Cell {
-    data class Roll(val coordinate: Coordinate) : Cell
-    data class Empty(val coordinate: Coordinate) : Cell
-}
-
 val example = 43
 val exampleFile = File("day4.example")
 val file = File("day4.data")
