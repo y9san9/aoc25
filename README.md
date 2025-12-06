@@ -33,6 +33,9 @@ That's definitely more fun for me even if it's slower. A list of days:
 - Day 5
     - [Part 1](day5.part1.main.kts)
     - [Part 2](day5.part2.main.kts)
+- Day 6
+    - [Part 1](day6.part1.main.kts)
+    - [Part 2](day6.part2.main.kts)
 
 To launch day, use:
 
