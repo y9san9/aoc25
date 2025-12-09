@@ -42,6 +42,9 @@ That's definitely more fun for me even if it's slower. A list of days:
 - Day 8
     - [Part 1](day8.part1.main.kts)
     - [Part 2](day8.part2.main.kts)
+- Day 9
+    - [Part 1](day9.part1.main.kts)
+    - Skill issue
 
 To launch day, use:
 
